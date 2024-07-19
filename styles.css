@@ -15,8 +15,9 @@ body {
 .board {
     display: grid;
     grid-template-columns: repeat(3, 100px);
-    grid-gap: 5px;
+    grid-gap: 0;
     margin: 20px auto;
+    border: 5px solid red;
 }
 
 .cell {
@@ -28,7 +29,7 @@ body {
     align-items: center;
     font-size: 2em;
     cursor: pointer;
-    border: 1px solid #ccc;
+    border: 2px solid red;
 }
 
 button {
