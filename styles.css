@@ -7,32 +7,39 @@ body {
     height: 100vh;
 }
 
-.header {
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #4CAF50;
     color: white;
-    text-align: center;
-    padding: 20px 0;
-    height: 7%;
+    padding: 10px 0;
     box-sizing: border-box;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
+.header {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-nav li {
-    display: inline;
-    margin: 0 15px;
+.nav-links {
+    display: flex;
+    align-items: center;
 }
 
-nav a {
+.nav-links a {
     color: white;
     text-decoration: none;
     font-size: 1.2em;
+    margin: 0 15px;
 }
 
-nav a:hover {
+.nav-links .divider {
+    font-size: 1.2em;
+    color: white;
+}
+
+.nav-links a:hover {
     text-decoration: underline;
 }
 
