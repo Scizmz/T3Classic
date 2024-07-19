@@ -15,6 +15,7 @@ body {
     color: white;
     padding: 10px 0;
     box-sizing: border-box;
+    flex-shrink: 0; /* Prevent the header from shrinking */
 }
 
 .header {
@@ -44,7 +45,7 @@ body {
 }
 
 .content {
-    flex-grow: 1;
+    flex-grow: 1; /* Allow the content area to grow and fill the remaining space */
     display: flex;
     justify-content: center;
     align-items: center;
