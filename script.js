@@ -4,11 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const content = document.getElementById('content');
 
     classicLink.addEventListener('click', () => {
-        loadGame('/classic.html');
+        loadGame('https://scizmz.github.io/T3Classic//classic.html');
     });
 
     notactoeLink.addEventListener('click', () => {
-        loadGame('/notactoe.html');
+        loadGame('https://scizmz.github.io/T3Classic//notactoe.html');
     });
 
     function loadGame(url) {
